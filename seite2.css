@@ -1,0 +1,71 @@
+
+
+.test5{
+    display: inline-block;
+ 
+}
+
+.test2{
+    display: flex;
+    border: 2px solid red;
+    flex-flow:row;
+    justify-content: center;
+    height: 500px;
+  
+
+
+}
+.test3{
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 10px;
+    width: 10px;
+    height: 20px;
+    
+    
+}
+
+.test7{
+    flex-basis: 50%;
+}
+
+
+.test5{
+    border: 3px solid green;
+    margin-bottom: 400px;
+    width: 100px;
+    height: 200px;
+    animation: mytest 3s infinite;
+    
+}
+
+@keyframes mytest{
+    0%   {transform: translate(0, 0);}
+    20%  {transform: translate(100px, 0);}
+    40%  {transform: translate(100px, 100px);}
+    60%  {transform: translate(50, 100px);}    
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
